@@ -47,11 +47,11 @@ class Ledboard():
         """
 
         result = ""
-        for x in self.board:
-            for y in x:
-                if y:
+        for rows in self.board:
+            for val in rows:
+                if val:
                     result += "*"
                 else:
-                    result += " "
+                    result += "_"
             result += "\n"
         return result

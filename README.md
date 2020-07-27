@@ -14,11 +14,8 @@ timetable
 
 - Contains a set of lines, which contains the content that must be printed
 - Contains a print function, that handles the calls to the ledboard
+- Acts as an abstraction layer
 
 alphabet
 
 - contains every letter in the alphabet, to a callable function
-
-manager
-
-- contains the different classes and ensures an abstraction layer for all the logic, so it can be simply updated
