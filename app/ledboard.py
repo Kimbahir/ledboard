@@ -1,4 +1,12 @@
+"""Testing
+
+"""
+
+
 class Ledboard():
+    """Contains the representation of the led board
+    """
+
     def __init__(self, x, y):
         """Initializes the board with X times Y
         Only allows single dot update to simulate a dumb led board
@@ -33,7 +41,7 @@ class Ledboard():
         """
         self.board[y][x] = False
 
-    def toggle(self,x,y):
+    def toggle(self, x, y):
         """Flips the content of the dot at the given coordinate
 
         Args:

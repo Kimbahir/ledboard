@@ -1,4 +1,11 @@
+"""The alphabet class
+"""
+
+
 class Alphabet():
+    """Holding the 5x7 alphabet for all chars
+    """
+
     def __init__(self):
         """Initialized the alphabet, so it can be picked up and used for drawing
         """
@@ -11,7 +18,7 @@ class Alphabet():
             "     ",
             "     "
         ]
-        self.A = [
+        self.a_char = [
             " *** ",
             "*   *",
             "*   *",
@@ -20,7 +27,7 @@ class Alphabet():
             "*   *",
             "*   *"
         ]
-        self.B = [
+        self.b_char = [
             "**** ",
             "*   *",
             "*   *",
@@ -29,7 +36,7 @@ class Alphabet():
             "*   *",
             "**** "
         ]
-        self.C = [
+        self.c_char = [
             " *** ",
             "*   *",
             "*    ",
